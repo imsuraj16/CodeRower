@@ -128,7 +128,7 @@ const Navbar = () => {
           <div className="p-4 bg-white/5 rounded-2xl border border-white/5">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center text-xs font-bold text-white shadow-lg">
-                RV
+                SV
               </div>
               <div>
                 <p className="text-sm font-medium text-white">Suraj Verma</p>
@@ -143,3 +143,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
