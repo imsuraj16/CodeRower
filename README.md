@@ -15,10 +15,11 @@ frontend/
 		App.jsx
 		main.jsx
 		index.css
-	components/
-		FetchConfig.jsx
-		UpdateRemark.jsx
-		Navbar.jsx
+		components/
+			Navbar.jsx
+		pages/
+			FetchConfig.jsx
+			UpdateRemark.jsx
 	vite.config.js
 	package.json
 ```
@@ -108,7 +109,7 @@ The frontend currently calls a deployed backend:
 https://config-backend-1.onrender.com
 ```
 
-If running the backend locally, update the axios base URLs in `components/FetchConfig.jsx` and `components/UpdateRemark.jsx` to:
+If running the backend locally, update the axios base URLs in `src/pages/FetchConfig.jsx` and `src/pages/UpdateRemark.jsx` to:
 
 ```
 http://localhost:8080
@@ -135,3 +136,14 @@ axios.put(`http://localhost:8080/api/configurations/${configId}`, { remark })
 
 - Ensure a document with the given `configId` exists in MongoDB before fetching/updating.
 - Tailwind CSS v4 is enabled via `@tailwindcss/vite` and `@import "tailwindcss"` in `src/index.css`.
+
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/70d349c3-89e0-4e2a-8880-0c676ab3a7aa" />
+
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/9e3794e3-dc9a-4898-9224-aa92ac7e6629" />
+
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/86626f13-a7af-4ae0-b063-c02351a752ce" />
+
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/f0bde2c5-b0e0-40eb-9789-e3b67e83848e" />
+
+
+
