@@ -41,7 +41,7 @@ const FetchConfig = () => {
   return (
     <div className="relative group h-full flex flex-col min-h-0">
       <div className="absolute -inset-0.5 bg-gradient-to-r from-neutral-800 to-neutral-700 rounded-3xl blur opacity-30 group-hover:opacity-50 transition duration-1000"></div>
-      <div className="relative bg-[#0A0A0A]/80 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl p-6 flex flex-col h-full min-h-0">
+      <div className="relative bg-[#0A0A0A]/80 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl p-4 md:p-6 flex flex-col h-full min-h-0">
         <div className="mb-6 flex-shrink-0">
           <div className="flex items-center gap-4 mb-1">
             <div className="p-3 bg-white/5 rounded-2xl border border-white/10 shadow-inner">
