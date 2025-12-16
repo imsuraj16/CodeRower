@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <Router>
-      <div className="flex min-h-screen bg-black text-neutral-200 selection:bg-white/20 font-inter">
+      <div className="flex flex-col md:flex-row min-h-screen bg-black text-neutral-200 selection:bg-white/20 font-inter">
         {/* Sidebar Navigation */}
         <Navbar />
 
